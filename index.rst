@@ -37,6 +37,7 @@ custom data structures and packets very simple.
     setup-OpenIMU300ZI
     setup-OpenIMU300RI
     setup-OpenIMU330BI
+    warning
 
 .. raw:: latex
 
