@@ -77,6 +77,7 @@ custom data structures and packets very simple.
 
     tutorial
     software
+    hw_sw_interface
     apps
     algorithms
     mags

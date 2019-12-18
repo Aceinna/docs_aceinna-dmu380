@@ -306,10 +306,21 @@ The default INS app output packet type is "e2", and it is defined in the followi
     |           |                          |           |           |
     +-----------+--------------------------+-----------+-----------+
     
-.. [1] Operation mode of the algorithm. 0 for waiting for the system to stabilize, 1 for initialzing attiude,
+.. [1] Operation mode of the algorithm. 0 for waiting for the system to stabilize, 1 for initializing attitude,
         2 and 3 for VG/AHRS mode, and 4 for INS mode. Please refer to the source code for details.
 .. [2] 0 if linear acceleration is detected, 1 if no linear acceleration. Please refer to the source code for details.
 .. [3] Indicate if the filtered yaw rate exceeds the turn switch threshold. 1 yes, 0 no. Please refer to the source code for details.
+
+
+Synchronization to One PPS GPS Signal
+-----------------------------------
+
+The OpenIMU300 has the ability to synchronize a One PPS signal provided by the GPS receiver.  The first step in the process is to 
+connect the signal to the correct input pin on the OpenIMU300.  In this case, Pin 2 serves as the input as described in 
+`Connector Pinout <../300ZI/pinout.html#connector-pinout-including-gps-sensor-interface>`__.
+
+See `synchronization to external clock signals <../hw_sw_interface/synchronization.html#synchronization-to-external-clock-signals>`__
+for more information on how to use the 1 PPS synchronization signal.
 
 
 About the GNSS/INS Fusion Algorithm
