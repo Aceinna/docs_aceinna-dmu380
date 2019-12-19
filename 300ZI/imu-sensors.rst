@@ -39,7 +39,8 @@ IMU Sensors
 | hr)                   |                       |
 +-----------------------+-----------------------+
 | Bandwidth (Hz)        | 5-50Hz                |
-|                       | (Configurable)        |
+|                       | (User Configurable);  |
+|                       | 25 Hz (default)       |
 +-----------------------+-----------------------+
 
 **Notes:**
@@ -80,7 +81,8 @@ IMU Sensors
 | hr)                   |                       |
 +-----------------------+-----------------------+
 | Bandwidth (Hz)        | 5-50Hz                |
-|                       | (Configurable)        |
+|                       | (User Configurable);  |
+|                       | 25 Hz (default)       |
 +-----------------------+-----------------------+
 
 **Notes:**
