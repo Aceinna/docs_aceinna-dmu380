@@ -187,7 +187,7 @@ Users can modify provided requests and/or implement their own unique commands.
 
 **Set Digital Filter Cutoff Frequencies**
 
-    The following table shows provides descriptions of the response payload
+    The following table shows provides descriptions of the request payload
 
     .. table::  *Digital Filter Cutoff Frequencies Request Payload*
         :align: left
@@ -213,23 +213,24 @@ Users can modify provided requests and/or implement their own unique commands.
     .. table:: *Set Orientation Payload Layout*
         :align: left
 
-        +----------+---------------------+-------------------+
-        | **Byte** | **Meaning**         | **Value**         |
-        +----------+---------------------+-------------------+
-        | 0        | Destination Address | Unique            |
-        +----------+---------------------+-------------------+
-        | 1:2      | Orientation Setting || see table below  |
-        |          |                     || LSB first        |
-        +----------+---------------------+-------------------+
+        +----------+------------------------+-------------------+
+        | **Byte** | **Meaning**            | **Value**         |
+        +----------+------------------------+-------------------+
+        | 0        | Destination Address    | Unique            |
+        +----------+------------------------+-------------------+
+        | 1        | Orientation Value (MSB)|| see table below  |
+        +----------+------------------------+-------------------+
+        | 2        | Orientation VAlue (LSB)|| see table below  |
+        +----------+------------------------+-------------------+
 
-    The following table provides the values and meanings of the payload field bytes:
+    The following table provides the orientation values and meanings:
 
     .. table:: *Set Orientation Field Descriptions*
         :align: left
 
         +------------------+-----------------------+------------------+----------------+
         || **Orientation** | **X/Y/Z Axis**        || **Orientation** | **X/Y/Z Axis** |
-        || **Field Value** |                       || **Field Value** |                |
+        || **Value**       |                       || **Value(cont)** |                |
         +------------------+-----------------------+------------------+----------------+
         | 0x0000           | +Ux +Uy +Uz (default) | 0x00C4           | +Uz +Uy -Ux    |
         +------------------+-----------------------+------------------+----------------+

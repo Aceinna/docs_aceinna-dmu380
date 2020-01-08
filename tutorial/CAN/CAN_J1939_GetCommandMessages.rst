@@ -149,9 +149,9 @@ The following table describe the payloads for responses to Get Requests
     +-----------+----------------------------------+
     | 0         | Source Address                   |
     +-----------+----------------------------------+
-    | 1         | First Byte of Orientation Value  |
+    | 1         | Orientation Value (MSB)          |
     +-----------+----------------------------------+
-    | 2         | Second Byte of Orientation Value |
+    | 2         | Orientation Value (LSB)          |
     +-----------+----------------------------------+
 
 .. note::
