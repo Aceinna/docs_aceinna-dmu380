@@ -39,6 +39,8 @@ Users can modify provided requests and/or implement their own unique commands.
     +---------------------------+---------+--------+--------------+--------------+-----------------------------------------+
     | *Set Orientation*         |  255    | 88     |  65368       |  3           |  Set unit orientation                   |
     +---------------------------+---------+--------+--------------+--------------+-----------------------------------------+
+    | *Set Lever Arm*           |  255    | 95     |  65375       |  8           |  Set unit Lever Arm (where applicable)  |
+    +---------------------------+---------+--------+--------------+--------------+-----------------------------------------+
     || *Set Bank of PS*         |  255    | 240    |  65520       |  8           || Reconfigure PS numbers for set         |
     || *Numbers for Bank0*      |         |        |              |              || requests                               |
     +---------------------------+---------+--------+--------------+--------------+-----------------------------------------+
@@ -258,6 +260,33 @@ Users can modify provided requests and/or implement their own unique commands.
         +------------------+-----------------------+------------------+----------------+
 
 
+**Set Lever Arm (where applicable)**
+
+    The following table shows the payload layout
+
+.. table:: *Set Lever Arm payload*
+
+    +-----------+----------------------------------+
+    | **Byte**  | **Description**                  |
+    +-----------+----------------------------------+
+    | 0         | Destination Address              |
+    +-----------+----------------------------------+
+    | 1         | reserved                         |
+    +-----------+----------------------------------+
+    | 2         | Wheel Distance Value (LSB), mm   |
+    +-----------+----------------------------------+
+    | 3         | Wheel Distance Value (MSB), mm   |
+    +-----------+----------------------------------+
+    | 4         | Lever Arm Bx Value (LSB), mm     |
+    +-----------+----------------------------------+
+    | 5         | Lever Arm Bx Value (MSB), mm     |
+    +-----------+----------------------------------+
+    | 6         | Lever Arm By Value (LSB), mm     |
+    +-----------+----------------------------------+
+    | 7         | Lever Arm By Value (MSB), mm     |
+    +-----------+----------------------------------+
+
+		
 **Set Bank of PS Numbers**
 
     The following tables provide descriptions of the payload for Bank0 and Bank1 set commands
@@ -299,5 +328,7 @@ Users can modify provided requests and/or implement their own unique commands.
         +----------+------------------------------------------------+
         | 5        | Set User Behavior PS Number                    |
         +----------+------------------------------------------------+
-        | 6 - 7    | Reserved                                       |
+        | 6        | Set Lever Arm PS Number                        |
+        +----------+------------------------------------------------+
+        | 7        | Reserved                                       |
         +----------+------------------------------------------------+
