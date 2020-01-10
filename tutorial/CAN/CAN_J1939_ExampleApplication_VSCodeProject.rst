@@ -8,7 +8,7 @@ The *IMU* project for OpenIMU300RI is the example which implements basic IMU fun
     header files that provide the function prototypes for the user and library code and critical definitions.
 *   The directory structure and files are shown in the following screen capture from VSCode.
 
-.. figure:: ../../media/OpenIMU300RI-CAN_J1939_Project.png
+.. figure:: ../../media/OpenIMU300RI-can_J1939_Project.png
     :align: center
 
     **Base folder from VSCode CAN J1939 Workspace**
