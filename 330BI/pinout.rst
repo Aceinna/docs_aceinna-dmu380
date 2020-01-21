@@ -1,10 +1,19 @@
-OpenIMU330BI Unit package Pinout
-================================
+OpenIMU330BI Pinout and Function Descriptions
+=============================================
 
 .. contents:: Contents
     :local:
 
-.. figure:: ../media/OpenIMU330BI_Pinout1.png
+.. figure:: ../media/OpenIMU330_POD.png
+   
+    
+
+.. figure:: ../media/OpenIMU330BI_PinBottomView.png
+   
+            **Pin Assignments, Bottom View**
+   
+
+.. figure:: ../media/OpenIMU330BI_PowerInterface.PNG
     :align: center
 ..
 
