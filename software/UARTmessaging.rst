@@ -150,7 +150,7 @@ OpenIMU UART Messaging Framework
 
     Polynomial 0x1021
 
-    Initial value = 0xFFFF
+    Initial value = 0x1D0F
 
     No XOR performed on the final value.
 
