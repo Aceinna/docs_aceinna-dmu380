@@ -19,6 +19,8 @@ The following pages cover:
 *   Eval Board Mechanical Drawing
 *   Eval Board Schematic
 
+.. note::
+    In OpenIMU330BI EVK by default signs of readings on X and Z axes are flipped in comparison to the Coordinate Frame drawing on top of the EVK board since OpenIMU330BI unit mounted upside-down in the EVK.
 
 .. toctree::
     :maxdepth: 2
