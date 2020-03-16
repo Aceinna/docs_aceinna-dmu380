@@ -14,14 +14,15 @@ custom data structures and packets very simple.
 
 .. raw:: latex
 
-   \part{About OpenIMU}
+   \part{OpenIMU}
 
 .. toctree::
-    :caption: About OpenIMU
+    :caption: OpenIMU
     :maxdepth: 1
     :hidden:
 
     intro
+    warning
     tools
 
 .. raw:: latex
@@ -33,11 +34,11 @@ custom data structures and packets very simple.
     :maxdepth: 1
     :hidden:
 
-    install
+    
     setup-OpenIMU300ZI
     setup-OpenIMU300RI
     setup-OpenIMU330BI
-    warning
+    
 
 .. raw:: latex
 
