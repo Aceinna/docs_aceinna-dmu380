@@ -1,16 +1,13 @@
 Development Tools
 =================
 
-.. image:: media/Ecosystem.png
+.. image:: ../media/Ecosystem.png
 
 The OpenIMU development environment consists of the following main components:
 
 *   Acienna Navigation Studio (ANS)
 *   Visual Studio Code IDE (VSCode)
 *   Debugging using the PlatformIO Debugger and the JTAG Debug Adapter
-*   OpenIMU300ZI Evaluation Kit
-*   OpenIMU300RI Evaluation Kit
-*   OpenIMU330BI Evaluation Kit
 *   In System Firmware Update
 *   Python Interface
 *   'openimu.json' Configuration File
@@ -23,8 +20,6 @@ The OpenIMU development environment consists of the following main components:
     dev_tools/ans
     dev_tools/vscode
     dev_tools/debug
-    dev_tools/evb
-    dev_tools/evb_300RI
     dev_tools/isp
     dev_tools/python
     dev_tools/imujson

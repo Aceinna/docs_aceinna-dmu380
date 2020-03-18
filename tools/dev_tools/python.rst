@@ -1,6 +1,8 @@
 Python Interface
 ================
-
+.. contents:: Contents
+    :local:
+	
 The OpenIMU Python driver supports communication with the hardware for data logging and 
 device configuration over the main user UART interface of the OpenIMU hardware.  When
 run in server mode, it allows connection of the OpenIMU with the developer's website

@@ -32,8 +32,6 @@ The Aceinna VS Code extension ensures a python environment automatically.  The O
 
 
 
-.. contents:: Contents
-    :local:
 
 **Connection**
 

@@ -1,6 +1,8 @@
 In-System Update
 ================
-
+.. contents:: Contents
+    :local:
+	
 All OpenIMU hardware modules come shipped pre-configured with a special
 bootloader resident in their FLASH memory. This bootloader allows for
 in-system code updates using a UART connection without using JTAG.  Sample code that utilizes this
