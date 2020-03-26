@@ -83,4 +83,3 @@ Tutorial - What The User Needs to Know to Build The First Application
     tutorial/Leveler_App
     tutorial/VG_AHRS_App
     tutorial/INS_App
-    tutorial/CAN/CAN_J1939_Application

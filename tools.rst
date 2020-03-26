@@ -5,7 +5,7 @@ Tools
     :local:
 
 
-Different Tools are available:
+This section reviews more detail on various Tools available for OpenIMU development environment:
 
 1. PC Tools Installation
 2. Development Tools

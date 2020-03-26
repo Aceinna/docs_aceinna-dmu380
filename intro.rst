@@ -1,6 +1,8 @@
 Overview
 ========
 
+.. contents:: Contents
+    :local:
 	
 OpenIMU is a precisely calibrated, open-source Inertial Measurement Unit platform for the development of navigation and localization algorithms.
 A free Visual Studio Code (VSCode) extension is installed which contains all the software and tools necessary to create and deploy custom

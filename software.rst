@@ -13,6 +13,7 @@ This section reviews more detail on how OpenIMU platform code modules are struct
 *   SPI Messaging
 *   Settings
 *   Tutorial App
+*   CAN J1939 Messaging  	
 
 .. toctree::
     :maxdepth: 1
@@ -25,3 +26,5 @@ This section reviews more detail on how OpenIMU platform code modules are struct
     software/SPImessaging
     software/settings
     software/tutorial
+    software/CAN/CAN_J1939_Application
+

@@ -24,7 +24,12 @@ custom data structures and packets very simple.
     intro
     warning
     tools
-
+    apps
+    tutorial
+    software
+    simulation
+    driver-python	
+	
 .. raw:: latex
 
    \part{Quick Start}
@@ -76,10 +81,8 @@ custom data structures and packets very simple.
     :maxdepth: 1
     :hidden:
 
-    tutorial
-    software
+    
     hw_sw_interface
-    apps
     algorithms
     mags
 
@@ -92,6 +95,4 @@ custom data structures and packets very simple.
     :maxdepth: 1
     :hidden:
 
-    simulation
-    driver-python
     driver-c
