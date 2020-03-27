@@ -1,7 +1,7 @@
 Development Tools
 =================
 
-.. image:: ../media/Ecosystem.png
+.. image:: ./media/Ecosystem.png
 
 The OpenIMU development environment consists of the following main components:
 
@@ -17,12 +17,12 @@ The OpenIMU development environment consists of the following main components:
     :maxdepth: 1
     :hidden:
 
-    dev_tools/ans
-    dev_tools/vscode
-    dev_tools/debug
-    dev_tools/isp
-    dev_tools/python
-    dev_tools/imujson
+    tools/dev_tools/ans
+    tools/dev_tools/vscode
+    tools/dev_tools/debug
+    tools/dev_tools/isp
+    tools/dev_tools/python
+    tools/dev_tools/imujson
 
 The easy way to get stared quickly is to purchase an OpenIMU Developer's Kit from Aceinna https://www.aceinna.com or a local distributor.
 The developer's kit includes an OpenIMU300EZ inertial measurement unit, JTAG Pod, Eval board, and precision test fixture.

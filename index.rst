@@ -32,44 +32,16 @@ custom data structures and packets very simple.
 	
 .. raw:: latex
 
-   \part{Quick Start}
+   \part{Products}
 
 .. toctree::
-    :caption: Quick Start
-    :maxdepth: 1
-    :hidden:
-
-    
-    setup-OpenIMU300ZI
-    setup-OpenIMU300RI
-    setup-OpenIMU330BI
-    
-
-.. raw:: latex
-
-   \part{IMU Modules}
-
-.. toctree::
-    :caption: IMU Modules
+    :caption: Products
     :maxdepth: 1
     :hidden:
 
     OpenIMU_Modules
 
-.. raw:: latex
-
-   \part{Evaluation Kits}
-
-.. toctree::
-    :caption: Evaluation Kits
-    :maxdepth: 1
-    :hidden:
-
-    EVB-OpenIMU300ZI
-    EVB-OpenIMU300RI
-    EVB-OpenIMU330BI
-
-..    EvaluationKits
+     
 
 .. raw:: latex
 
