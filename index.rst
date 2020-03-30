@@ -42,17 +42,14 @@ custom data structures and packets very simple.
     OpenIMU_Modules
 
      
-
 .. raw:: latex
 
-   \part{Software Development}
-
+   \part{Dev Support & Algorithms}
 
 .. toctree::
-    :caption: Software Development
+    :caption: Dev Support & Algorithms
     :maxdepth: 1
     :hidden:
-
     
     hw_sw_interface
     algorithms

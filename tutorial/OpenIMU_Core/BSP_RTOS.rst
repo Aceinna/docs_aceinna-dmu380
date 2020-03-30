@@ -25,12 +25,15 @@ The critical feature of FreeRTOS:
 	*   Round robin with time slicing
 
 .. blank
+
 *   Fast task notifications
 
 .. blank
+
 *   Configurable & scalable with a	6K to 12K ROM footprint
 
 ..
+
 *   Mutexes & semaphores
 
 	*   Mutexes with priority inheritance
@@ -38,18 +41,23 @@ The critical feature of FreeRTOS:
 	*   Binary and counting semaphores
 
 ..
+
 *   Chip and compiler agnostic
 
 ..
+
 *   Very efficient software timers
 
 ..
+
 *   Can be configured to never completely disable interrupts
 
 ..
+
 *   Easy to use API
 
 ..
+
 *   Easy to use message passing
 
 **Board Support Package** - To Be Provided
