@@ -39,7 +39,7 @@ Users can modify provided requests and/or implement their own unique commands.
     +---------------------------+---------+--------+--------------+--------------+-----------------------------------------+
     | *Set Orientation*         |  255    | 88     |  65368       |  3           |  Set unit orientation                   |
     +---------------------------+---------+--------+--------------+--------------+-----------------------------------------+
-    | *Set Lever Arm*           |  255    | 95     |  65375       |  8           |  Set unit Lever Arm (where applicable)  |
+    | *Set Lever Arm (TBD)*     |  255    | 95     |  65375       |  8           |  Set unit Lever Arm (where applicable)  |
     +---------------------------+---------+--------+--------------+--------------+-----------------------------------------+
     || *Set Bank of PS*         |  255    | 240    |  65520       |  8           || Reconfigure PS numbers for set         |
     || *Numbers for Bank0*      |         |        |              |              || requests                               |
@@ -156,10 +156,10 @@ Users can modify provided requests and/or implement their own unique commands.
         |        |  Divider      || 2  - 50                         |
         |        |  Value        || 4  - 25                         |
         |        |               || 5  - 20                         |
-        |        |               || 10 - 10                         |
-        |        |               || 20 -  5                         |
-        |        |               || 25 -  4                         |
-        |        |               || 50 -  2                         |
+        |        |               || 10 (0x0a) - 10                  |
+        |        |               || 20 (0x14) -  5                  |
+        |        |               || 25 (0x19) -  4                  |
+        |        |               || 50 (0x32) -  2                  |
         +--------+---------------+----------------+-----------------+
 
 **Set Periodic Data Packet Type(s)**
@@ -181,6 +181,7 @@ Users can modify provided requests and/or implement their own unique commands.
         |        || Packet Type(s)|| Bit 0 - SSI2                 |
         |        || Bitmask (LSB) || Bit 1 - Angular Rate         |
         |        ||               || Bit 2 - Acceleration         |
+        |        ||               || Bit 3 - Magnetometer         |
         +--------+----------------+-------------------------------+
         | 2      || Selected Data ||  Reserved                    |
         |        || Packet Type(s)||                              |
@@ -189,7 +190,7 @@ Users can modify provided requests and/or implement their own unique commands.
 
 **Set Digital Filter Cutoff Frequencies**
 
-    The following table shows provides descriptions of the request payload
+    The following table provides descriptions of the request payload
 
     .. table::  *Digital Filter Cutoff Frequencies Request Payload*
         :align: left
@@ -260,7 +261,7 @@ Users can modify provided requests and/or implement their own unique commands.
         +------------------+-----------------------+------------------+----------------+
 
 
-**Set Lever Arm (where applicable)**
+**Set Lever Arm (TBD)**
 
     The following table shows the payload layout
 
