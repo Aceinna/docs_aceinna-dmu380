@@ -1,5 +1,5 @@
-OpenIMU Software Support
-=========================
+OpenIMU Software Overview
+===========================
 
 .. contents:: Contents
     :local:

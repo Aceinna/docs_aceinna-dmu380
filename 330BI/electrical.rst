@@ -11,10 +11,10 @@ OpenIMU330BI Environmental, Electrical,  and Physical Specifications
 |                       |                       |
 |                       |                       |
 +-----------------------+-----------------------+
-| Operating Temperature | -40 to 105            |
+| Operating Temperature | -40 to 85             |
 | (°C)                  |                       |
 +-----------------------+-----------------------+
-| Non-Operating         | -65 to 150            |
+| Non-Operating         | -65 to 85             |
 | Temperature (°C)      |                       |
 +-----------------------+-----------------------+
 | Enclosure             |                       |
@@ -40,6 +40,33 @@ OpenIMU330BI Environmental, Electrical,  and Physical Specifications
 | Input Clock Sync      | 1KHz pulse            |
 |                       | (Configurable)        |
 +-----------------------+-----------------------+
+
+.. envvar:: ABSOLUTE MAXIMUM RATINGS
+
++-----------------------+-----------------------+
+| **Specifications**    |                       |
+|                       |                       |
+|                       |                       |
++-----------------------+-----------------------+
+| Input Voltage (VDD)   |  3.0 to 5.5 V         |
++-----------------------+-----------------------+
+| Digital Input         | -0.3 to 3.6 V         |
+| Voltage to GND        |                       |
++-----------------------+-----------------------+
+| Digital Output        | -0.3 to 3.6 V         |
+| Voltage to GND        |                       |
++-----------------------+-----------------------+
+| Calibration           | -40 to 85 C           |
+| Temperature Range     |                       |
++-----------------------+-----------------------+
+| Operating             | -40 to 85 C           |
+| Temperature Range     |                       |
++-----------------------+-----------------------+
+| Non-Operating         | -40 to 85 C           |
+| Temperature Range     |                       |
++-----------------------+-----------------------+
+
+**The mechanical shock is 500 m/s2.**
 
 .. envvar:: PHYSICAL
 
