@@ -18,10 +18,10 @@ The format and content of the Request message has next format:
 Extended header:
 
     | PF      : 234,
-    | PS      : Destination Address,
+    | PS      : 255,
     | DLC     : 3,
     | Priority: 6,
-    | PGN     : 59904.
+    | PGN     : 60159.
 
 .. table::    *Request Payload*
     :align: left
@@ -60,7 +60,7 @@ In table below provided list of the parameters which can be requested from ECU, 
     +-------------------------------+-------------+-------------+--------------+
     | *Orientation*                 | 255         | 88          | 3            |
     +-------------------------------+-------------+-------------+--------------+
-    | *Lever Arm(where applicable)* | 255         | 95          | 8            |
+    | *Lever Arm(TBD)*              | 255         | 95          | 8            |
     +-------------------------------+-------------+-------------+--------------+
 
 .. note::
@@ -156,7 +156,7 @@ The following table describe the payloads for responses to Get Requests
     | 2         | Orientation Value (LSB)          |
     +-----------+----------------------------------+
 
-.. table:: *Lever Arm Response Payload (where applicable)*
+.. table:: *Lever Arm Response Payload (TBD)*
 
     +-----------+----------------------------------+
     | **Byte**  | **Description**                  |
