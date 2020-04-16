@@ -11,10 +11,10 @@ OpenIMU330BI Environmental, Electrical,  and Physical Specifications
 |                       |                       |
 |                       |                       |
 +-----------------------+-----------------------+
-| Operating Temperature | -40 to 105            |
+| Operating Temperature | -40 to 85            |
 | (°C)                  |                       |
 +-----------------------+-----------------------+
-| Non-Operating         | -65 to 150            |
+| Non-Operating         | -40 to 85            |
 | Temperature (°C)      |                       |
 +-----------------------+-----------------------+
 | Enclosure             |                       |
