@@ -1,4 +1,4 @@
-CAN J1939 Example Application For OpenIMU330RI
+CAN J1939 Example Application For OpenIMU300RI
 **********************************************
 
 	
