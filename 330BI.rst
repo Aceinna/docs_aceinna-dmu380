@@ -42,6 +42,14 @@ Specifications
 
     330BI/electrical
     330BI/mechanical	
+
+SMT Process
+--------------
+.. toctree::
+    :maxdepth: 1
+
+    330BI/SMT_process
+
 	
 Interfaces
 -----------
@@ -66,8 +74,10 @@ Eval Kit
     :maxdepth: 1
 
     330BI/EVB-OpenIMU330BI
-    330BI/evb_300BI
-
+    330BI/evb_330BI
+    330BI/evb_330BI_FW_update
+    
+	
 
 Ready to Use Application
 --------------------------
