@@ -14,71 +14,46 @@ custom data structures and packets very simple.
 
 .. raw:: latex
 
-   \part{About OpenIMU}
+   \part{OpenIMU}
 
 .. toctree::
-    :caption: About OpenIMU
+    :caption: OpenIMU
     :maxdepth: 1
     :hidden:
 
     intro
-    tools
-
-.. raw:: latex
-
-   \part{Quick Start}
-
-.. toctree::
-    :caption: Quick Start
-    :maxdepth: 1
-    :hidden:
-
-    install
-    setup-OpenIMU300ZI
-    setup-OpenIMU300RI
-    setup-OpenIMU330BI
     warning
-
-.. raw:: latex
-
-   \part{IMU Modules}
-
-.. toctree::
-    :caption: IMU Modules
-    :maxdepth: 1
-    :hidden:
-
-    OpenIMU_Modules
-
-.. raw:: latex
-
-   \part{Evaluation Kits}
-
-.. toctree::
-    :caption: Evaluation Kits
-    :maxdepth: 1
-    :hidden:
-
-    EVB-OpenIMU300ZI
-    EVB-OpenIMU300RI
-    EVB-OpenIMU330BI
-
-..    EvaluationKits
-
-.. raw:: latex
-
-   \part{Software Development}
-
-
-.. toctree::
-    :caption: Software Development
-    :maxdepth: 1
-    :hidden:
-
+    tools
+    apps
     tutorial
     software
+    simulation
+    driver-python	
+	
+.. raw:: latex
+
+   \part{Products}
+
+.. toctree::
+    :caption: Products
+    :maxdepth: 1
+    :hidden:
+
+    300ZI
+    300RI
+    330BI
+
+     
+.. raw:: latex
+
+   \part{Dev Support & Algorithms}
+
+.. toctree::
+    :caption: Dev Support & Algorithms
+    :maxdepth: 1
+    :hidden:
+    
     hw_sw_interface
-    apps
     algorithms
     mags
 
@@ -91,6 +66,4 @@ custom data structures and packets very simple.
     :maxdepth: 1
     :hidden:
 
-    simulation
-    driver-python
     driver-c

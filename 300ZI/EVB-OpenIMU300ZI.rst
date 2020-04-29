@@ -1,8 +1,19 @@
-Overview
-========
+OpenIMU300ZI Eval Kit
+=====================
 
 .. contents:: Contents
     :local:
+    
+The OpenIMU300ZI evaluation kit consists of a robust and easy-to-use eval board, a test fixture, the OpenIMU300ZI IMU module, and an ST-LINK J-TAG pod.
+
+.. image:: ../media/OpenIMUKit.png
+    :height: 300
+
+.. image:: ../media/STLink.png
+    :height: 200
+
+
+**Overview**
 
 **1. Introduction**
 
@@ -212,7 +223,28 @@ Overview
 	|  Third in a row virtual port routed to IMU's Serial channel 2 (pins 17 and 19 on J2) and usually used as a debug/CLI serial channel .
 
 
-**7. OpenIMU Evaluation Kit Important Notice**
+OpenIMU300ZI Evaluation Kit Setup
+=======================================
+
+| To set up OpenIMU300ZI evaluation kit for development you'll need to perform next steps:
+
+ 1. Unpack OpenIMU300ZI evaluation kit.
+ 2. Push power switch to "OFF" position.
+ 3. Connect OpenIMU300ZI evaluation board to the PC via USB cable. USB connection provides power to the test setup as well as connectivity between PC and IMU serial ports.
+ 4. Connect ST-Link debugger to the PC via USB cable.
+ 5. Connect OpenIMU300ZI evaluation board to ST-Link debugger using provided 20-pin flat cable.
+ 6. Push power switch to "ON" position.
+
+Now you are ready to debug and test your application.
+
+*   The following activities are addressed in the "Tools/Development Tools" section:
+
+    *   Download App with JTAG
+    *   Debugging with PlatformIO Debugger and JTAG Debug Adapter
+    *   Graphing & Logging IMU Data using the Acienna Navigation Studio
+
+
+**OpenIMU Evaluation Kit Important Notice**
 
 ::
 
@@ -232,3 +264,4 @@ Overview
      No license is granted under any patent right or other intellectual property right of Aceinna covering
      or relating to any machine, process, or combination in which such Aceinna products or services might
      be or are used.
+

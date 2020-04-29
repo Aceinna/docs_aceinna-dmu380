@@ -32,14 +32,55 @@ sensors.
 * Wide Temp Range -40 to 85 |deg| C
 * High Reliability > 50,000hr MTBF
 
+	
+
+	
+	
+Specifications
+---------------
+
 .. toctree::
     :maxdepth: 1
 
-    300ZI/imu-sensors
-    300ZI/electrical
+    300ZI/electrical-specs
     300ZI/mechanical
+    300ZI/schematic
+	
+Interfaces
+-----------
+
+.. toctree::
+    :maxdepth: 1
+	
     300ZI/spi-uart
+
+Pinout
+----------
+.. toctree::
+    :maxdepth: 1
+	
     300ZI/pinout
     300ZI/arm-cortex-cpu
+	
+Eval Kit
+----------
+.. toctree::
+    :maxdepth: 1
+	
+    300ZI/EVB-OpenIMU300ZI
+    300ZI/evb
+	
+Ready to Use Application
+--------------------------
+	
+To learn about Ready-to-Use-Apps information & available for immediate download to your OpenIMU, please see the following
+pages: 
+
+1. `Ready-to-Use-Applications Information <https://openimu.readthedocs.io/en/latest/apps.html>`__
+2. `Need to run the OpenIMU server before running one of the ready to use applications <https://developers.aceinna.com/devices/connect>`__
+3. `Then upload a prebuilt app to your OpenIMU <https://developers.aceinna.com/code/apps>`__
+
 
 .. include:: <isonum.txt>
+
+

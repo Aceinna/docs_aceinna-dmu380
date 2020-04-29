@@ -4,7 +4,7 @@ FreeRTOS
 .. contents:: Contents
     :local:
 
-The applications for all OpenIMU units use the FreeRTOS Real-Time Operating System (`FreeRTOS Site <https://www.freertos.org>`_).
+The applications for all OpenIMU300 units use the FreeRTOS Real-Time Operating System (`FreeRTOS Site <https://www.freertos.org>`_), while OpenIMU330 units uses a simple real-time scheduler.
 FreeRTOS is very widely used, as it is feature-rich, has a small footprint, and can be used in commercial application without
 having to expose intellectual property.
 

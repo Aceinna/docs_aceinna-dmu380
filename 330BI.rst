@@ -34,14 +34,61 @@ The main feature of OpenIMU300BI is tripple redundancy for each inertial sensor.
 * High Reliability > 50,000hr MTBF
 * Low power
 
+Specifications
+---------------
+
 .. toctree::
     :maxdepth: 1
 
-    330BI/imu-sensors
     330BI/electrical
-    330BI/mechanical
+    330BI/mechanical	
+
+SMT Process
+--------------
+.. toctree::
+    :maxdepth: 1
+
+    330BI/SMT_process
+
+	
+Interfaces
+-----------
+
+.. toctree::
+    :maxdepth: 1
+
     330BI/spi-uart
+
+
+Pinout
+----------	
+.. toctree::
+    :maxdepth: 1
+
     330BI/pinout
     330BI/arm-cortex-cpu
+
+Eval Kit
+----------
+.. toctree::
+    :maxdepth: 1
+
+    330BI/EVB-OpenIMU330BI
+    330BI/evb_330BI
+    330BI/evb_330BI_FW_update
+    
+	
+
+Ready to Use Application
+--------------------------
+	
+To learn about Ready-to-Use-Apps information & available for immediate download to your OpenIMU, please see the following
+pages: 
+
+1. `Ready-to-Use-Applications Information <https://openimu.readthedocs.io/en/latest/apps.html>`__
+2. `Need to run the OpenIMU server before running one of the ready to use applications <https://developers.aceinna.com/devices/connect>`__
+3. `Then upload a prebuilt app to your OpenIMU <https://developers.aceinna.com/code/apps>`__
+
+
 
 .. include:: <isonum.txt>

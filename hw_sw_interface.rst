@@ -1,5 +1,5 @@
 *******************************************
-OpenIMU Hardware/Software Interface Support
+OpenIMU Hardware/Software Interface 
 *******************************************
 
 .. contents:: Contents

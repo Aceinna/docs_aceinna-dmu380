@@ -58,7 +58,7 @@ outputs NMEA GGA, VTG and RMC messages. The default baud rate for UART is 115200
 lack of some required information of the algorithm, it is chosen here because its popularity and simplicity.
 Our GPS driver supports NMEA message decoding, so you don't need to write a single line of code.
 
-It is assumed that you are using our :doc:`OpenIMU300ZI EVK <../EVB-OpenIMU300ZI>`.
+It is assumed that you are using our :doc:`OpenIMU300ZI EVK <../300ZI/EVB-OpenIMU300ZI>`.
 
 Connect the GPS receiver to the EVK
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -78,12 +78,12 @@ The unit has a built-in IMU app. The INS app need loaded by yourself. There are 
 
 This is for people who only want to use the precompiled bin file.
 
-The :doc:`Python Driver <../tools/python>` loads the INS app by the built-in bootloader of the OpenIMU300ZI unit.
+The :doc:`Python Driver <../tools/dev_tools/python>` loads the INS app by the built-in bootloader of the OpenIMU300ZI unit.
 Please follow steps below.
 
 1. Connect the unit to the Python Driver.
 
-  Please refer to :doc:`Python Interface <../tools/python>`. If the unit is successfully connected, you will see information like this.
+  Please refer to :doc:`Python Interface <../tools/dev_tools/python>`. If the unit is successfully connected, you will see information like this.
 
   .. image:: ../media/connected_to_python_driver.png
 
@@ -107,7 +107,7 @@ Please follow steps below.
 If you want to modify our open-source code, you may want to try this way.
 
 Please first refer to :doc:`PC Tools Installation <../install>` to install required tools and
-then to :doc:`Aceinna Extension <../tools/vscode>` for basic usage of the extention. After importing
+then to :doc:`Aceinna Extension <../tools/dev_tools/vscode>` for basic usage of the extention. After importing
 the project of the INS app, you can modify the code, compile the project and upload the bin file to
 the unit via ST-Link.
 
@@ -313,7 +313,7 @@ The default INS app output packet type is "e2", and it is defined in the followi
 
 
 Synchronization to One PPS GPS Signal
------------------------------------
+--------------------------------------
 
 The OpenIMU300 has the ability to synchronize a One PPS signal provided by the GPS receiver.  The first step in the process is to 
 connect the signal to the correct input pin on the OpenIMU300.  In this case, Pin 2 serves as the input as described in 

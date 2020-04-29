@@ -16,7 +16,7 @@ There are two primary methods to debug a program on OpenIMU.
     It allows to load and run application, stop in any place of the code by using breakpoints, observe and set values of local and global variables,
     observe device memory contents. The following screen shots show Visual Studio Code screen in debug mode.
 
-    .. image:: ../media/VsCodeDebugging.png
+    .. image:: ../../media/VsCodeDebugging.png
 
     Debug mode can be entered by clicking on "Debug" icon - fourth from top on very left of the screen and then clicking on green arrow "PlatformIO debugger" on top of the screen
     or alternatively from the menu "Debug->Start Debugging". After entering debug mode use debug control icons
@@ -44,7 +44,7 @@ There are two primary methods to debug a program on OpenIMU.
 
     -D CLI
 
-    .. image:: ../media/CLI.png
+    .. image:: ../../media/CLI.png
 
     It allows to send custom ASCII commands to OpenIMU unit via debug serial port using any serial terminal program.
     CLI engine reside in CLI directory in libraries source tree.

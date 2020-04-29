@@ -62,19 +62,47 @@ systems ten times more expensive.
     *	Built in 16-State Open Source Extended State Kalman Filter
     *	Open Community & Support
 
+Specifications
+---------------
 
 .. toctree::
     :maxdepth: 1
-    :hidden:
-
-    300RI/imu-sensors
+	
     300RI/electrical
-    300RI/mechanical
+    300RI/mechanical	
+	
+Interfaces
+-----------
+
+.. toctree::
+    :maxdepth: 1
+
     300RI/CAN-UART
+
+Pinout
+----------	
+.. toctree::
+    :maxdepth: 1
+    
     300RI/pinout
     300RI/arm-cortex-cpu
 
+Eval Kit
+----------
+.. toctree::
+    :maxdepth: 1
+	
+    300RI/EVB-OpenIMU300RI
+    300RI/evb_300RI
 
+Ready to Use Application
+--------------------------
+	
+To learn about Ready-to-Use-Apps information & available for immediate download to your OpenIMU, please see the following
+pages: 
 
+1. `Ready-to-Use-Applications Information <https://openimu.readthedocs.io/en/latest/apps.html>`__
+2. `Need to run the OpenIMU server before running one of the ready to use applications <https://developers.aceinna.com/devices/connect>`__
+3. `Then upload a prebuilt app to your OpenIMU <https://developers.aceinna.com/code/apps>`__
 
 .. include:: <isonum.txt>

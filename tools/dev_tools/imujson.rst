@@ -1,6 +1,8 @@
 openimu.json Configuration File
 ===============================
-
+.. contents:: Contents
+    :local:
+	
 The *openimu.json* file is used to describe the input and output messages and the configuration parameters of the OpenIMU.  An example
 file is shown below.  The two sections that are edited during development are "userConfiguration" and "userMessages". These sections of
 the JSON file correspond to equivalent sections of code in the your custom application.  The description provided in the *openimu.json* 

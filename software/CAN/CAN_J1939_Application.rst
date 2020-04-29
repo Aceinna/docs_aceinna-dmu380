@@ -1,5 +1,7 @@
-CAN J1939 Example Application For OpenIMU300RI
-**********************************************
+CAN J1939 Messaging 
+********************
+
+**CAN J1939 Example Application For OpenIMU330RI**
 
 	
 *   The example can be used as is or customized to suit the customer's system requirements.

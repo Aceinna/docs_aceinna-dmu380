@@ -1,9 +1,13 @@
-Module Mechanical Drawing
-=========================
+OpenIMU300ZI EVK Mechanical Drawing
+===================================
 
-Dimensions are in mm
+.. contents:: Contents
+    :local:
 
-.. figure:: ../media/mechanical.png
-    :align: center
+.. image:: ../media/8550-3885-01_EvalKit_OpenIMU300ZI.png
 
-    **OpenIMU300ZI Module Mechanical Drawing**
+
+.. note:: Use the browser's back button to return to this page.
+
+
+Mechanical Drawing :download:`download link <../media/8550-3885-01_EvalKit_OpenIMU300ZI.PDF>`

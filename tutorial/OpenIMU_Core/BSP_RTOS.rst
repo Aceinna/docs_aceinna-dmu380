@@ -10,7 +10,7 @@ FreeRTOS & Board Support Package
 
 **FreeRTOS**
 
-The applications for all OpenIMU units use the FreeRTOS Real-Time Operating System (https://www.freertos.org).
+The applications for all OpenIMU300 units use the FreeRTOS Real-Time Operating System (https://www.freertos.org), while OpenIMU330 units uses a simple real-time scheduler.
 FreeRTOS is very widely used, as it is feature-rich, has a small footprint, and can be used in commercial application without
 having to expose intellectual property.
 
@@ -25,12 +25,15 @@ The critical feature of FreeRTOS:
 	*   Round robin with time slicing
 
 .. blank
+
 *   Fast task notifications
 
 .. blank
+
 *   Configurable & scalable with a	6K to 12K ROM footprint
 
 ..
+
 *   Mutexes & semaphores
 
 	*   Mutexes with priority inheritance
@@ -38,18 +41,23 @@ The critical feature of FreeRTOS:
 	*   Binary and counting semaphores
 
 ..
+
 *   Chip and compiler agnostic
 
 ..
+
 *   Very efficient software timers
 
 ..
+
 *   Can be configured to never completely disable interrupts
 
 ..
+
 *   Easy to use API
 
 ..
+
 *   Easy to use message passing
 
 **Board Support Package** - To Be Provided

@@ -4,6 +4,9 @@ CAN and UART
 .. contents:: Contents
     :local:
 
+Ports
+----------------
+
 The OpenIMU300RI has two external ports; one UART port and one CAN bus port.
 Based on these available external ports, the OpenIMU300RI can be configured
 in several modes for communication with the external world.
@@ -25,3 +28,19 @@ The usage modes are:
 |                     | - Uses CAN Port for messages and          |
 |                     |   firmware update                         |
 +---------------------+-------------------------------------------+
+
+CAN Messaging
+----------------
+
+To learn about CAN J1939 Messaging & Example Application For OpenIMU330RI, please see the following
+page: 
+
+1. `CAN J1939 Messaging & Example Application <https://openimu.readthedocs.io/en/latest/tutorial/CAN/CAN_J1939_Application.html>`__
+
+
+UART Messaging
+----------------
+
+To learn more about the OpenIMU UART Messaging Framework, please see the following pages: 
+
+1. `UART Messsaging Framework <https://openimu.readthedocs.io/en/latest/software/UARTmessaging.html>`__
