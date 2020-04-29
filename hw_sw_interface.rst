@@ -12,7 +12,7 @@ external sources include:
 
     *   `Synchronization to external clock signals <hw_sw_interface/synchronization.html#synchronization-to-external-clock-signals>`__
     *   `GPS receiver input <hw_sw_interface/gps_input.html#gps-receiver-input-signal>`__
-    *   `Odometer input <hw_sw_interface/synchronization.html#synchronization-to-external-clock-signals>`__
+    *   `Odometer input <hw_sw_interface/odometer.html#connecting-to-an-external-odometer>`__
 
 If the input is provided via a software interface, such as CAN, then this section is not applicable.
 

@@ -9,7 +9,7 @@ OpenIMU330BI Eval Board and Fixture
     :align: center
 
 The OpenIMU330BI Eval Board is attached to a fixture for easy handling and isolation of the back side of the board from any contact.
-The EVB interfaces to the main connector of the OpenIMU300EZ as well as the OpenIMU330 evaluation module.  The EVB and IMU module are mounted together to a precision fixture to assist in testing.  The OpenIMU300EVB uses an
+The EVB interfaces to the main connector of the OpenIMU330 evaluation module.  The EVB and IMU module are mounted together to a precision fixture to assist in testing.  The OpenIMU330EVB uses an
 FTDI 4-port Serial-to-USB converter to allow you to communicate with between the OpenIMU serial ports and a laptop computer.  There are also
 jumper connections to use to connect to the device's primary SPI port. Use the JTAG interface to directly download compiled code to the device
 quickly.

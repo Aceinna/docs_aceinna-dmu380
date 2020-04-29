@@ -1,5 +1,5 @@
-Messages in the CAN J1939 Application Example
-*********************************************
+CAN J1939 Messages
+*********************
 
 In next chapter provided description of the J1939 messages used in OpenIMU300RI application examples.
 Users can keep the implemented messages as is, modify them, or add new messages.

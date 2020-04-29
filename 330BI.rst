@@ -75,9 +75,15 @@ Eval Kit
 
     330BI/EVB-OpenIMU330BI
     330BI/evb_330BI
-    330BI/evb_330BI_FW_update
+
     
-	
+Firmware Update
+-----------------
+.. toctree::
+    :maxdepth: 1
+
+    330BI/evb_330BI_FW_update	
+
 
 Ready to Use Application
 --------------------------
