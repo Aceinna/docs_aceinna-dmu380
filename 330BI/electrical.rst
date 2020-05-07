@@ -14,7 +14,7 @@ OpenIMU330BI Environmental, Electrical,  and Physical Specifications
 | Operating Temperature | -40 to 85             |
 | (°C)                  |                       |
 +-----------------------+-----------------------+
-| Non-Operating         | -65 to 85             |
+| Non-Operating         | -40 to 85             |
 | Temperature (°C)      |                       |
 +-----------------------+-----------------------+
 | Enclosure             |                       |
@@ -66,7 +66,6 @@ OpenIMU330BI Environmental, Electrical,  and Physical Specifications
 | Temperature Range     |                       |
 +-----------------------+-----------------------+
 
-**The mechanical shock is 500 m/s2.**
 
 .. envvar:: PHYSICAL
 
@@ -75,7 +74,7 @@ OpenIMU330BI Environmental, Electrical,  and Physical Specifications
 |                       |                       |
 |                       |                       |
 +-----------------------+-----------------------+
-| Size (mm)             | 15x11                 |
+| Size (mm)             | 11x15x3               |
 +-----------------------+-----------------------+
 | Weight (gm)           | 1.0                   | 
 +-----------------------+-----------------------+
@@ -85,11 +84,24 @@ OpenIMU330BI Environmental, Electrical,  and Physical Specifications
 
 .. envvar:: VOLTAGE VALUES
 
++-----------------------+-----------------------+
+| **Specifications**    |                       |
+|                       |                       |
+|                       |                       |
++-----------------------+-----------------------+
+| Nominal voltage       | 3.3 V                 |
++-----------------------+-----------------------+
+| All Pins Voltage      | 5 V                   | 
++-----------------------+-----------------------+
+| Reset Pin Max Voltage | 3.6 V                 |
++-----------------------+-----------------------+
 
-- Nominal voltage 				   = 3.3V
-- All pins voltage				   = 5 V  
-- Reset pin max voltage 		   = 3.6 V.
+
+.. envvar:: VALUES
+
 - Moisture Sensitivity Level (MSL) = 5
+- The mechanical shock = 500 m/s2 
+
 
 
 .. envvar:: COMPLIANCE
