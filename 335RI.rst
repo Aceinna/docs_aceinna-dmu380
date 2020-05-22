@@ -1,0 +1,82 @@
+OpenIMU335RI - Rugged Industrial CAN Module
+===========================================
+.. contents:: Contents
+    :local:
+
+
+
+The following image shows the OpenIMU335RI unit.
+
+.. image:: media/OpenIMU300RI-module.png
+    :height: 400
+
+The following diagram shows the default coordinate frame for the OpenIMU335RI.
+The coordinate frame can be changed using a UART or CAN message.
+
+.. figure::  media/OpenIMU300RI_CoordinateFrame.png
+    :width: 5.11in
+    :height: 4.75in
+    :align: center
+
+    OpenIMU335RI Default Coordinate Frame
+
+
+The OpenIMU335RI Robust Industrial CAN module integrates highly-reliable MEMS inertial
+sensors (acceleration, angular rate/gyro, and magnetic field) in a miniature
+factory-calibrated package to provide consistent performance through the extreme
+operating environments.
+
+OpenIMU335RI has excellent acceleration and gyro performance that matches
+systems ten times more expensive.
+
+
+*   Hardware
+
+    *	Precision 3-axis MEMS Accelerometer
+    *	Low-Drift 3-axis MEMS angular rate sensor
+    *	High Performance 3-axis AMR Magnetometer
+    *	168 MHz ARM M4 microcontroller
+    *	Wide Temp Range, -40C to +85C
+    *	Wide Supply Voltage Range, 5 V – 32 V
+    *	High Reliability, MTBF > 50k hours
+    *	IP67 Ampseal Connector
+    *   CAN 2.0 interface
+    *   RS232 Interface  
+
+*   Firmware and Firmware Support
+
+    *   In-System Firmware Upgrade
+    *	Open Source Tool Chain
+    *	Open Source Algorithms (IMU / VG / AHRS / INS)
+    *	Built in 16-State Open Source Extended State Kalman Filter
+    *	Open Community & Support
+
+Specifications
+---------------
+
+.. toctree::
+    :maxdepth: 1
+	
+    335RI/electrical
+    335RI/mechanical	
+	
+Interfaces
+-----------
+
+.. toctree::
+    :maxdepth: 1
+
+    335RI/CAN-UART
+    335RI/CAN/CAN_J1939_CAN_Messages
+    	
+
+Pinout
+----------	
+.. toctree::
+    :maxdepth: 1
+    
+    335RI/pinout
+    335RI/arm-cortex-cpu
+
+
+.. include:: <isonum.txt>

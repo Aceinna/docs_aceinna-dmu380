@@ -1,6 +1,6 @@
 CAN J1939 Messages
 *********************
->>>>>>> master:tutorial/CAN/CAN_J1939_CAN_Messages.rst
+
 
 In next chapter provided description of the J1939 messages used in OpenIMU300RI application examples.
 Users can keep the implemented messages as is, modify them, or add new messages.
