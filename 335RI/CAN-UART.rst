@@ -35,7 +35,8 @@ UART Messaging
 
 To learn more about the OpenIMU UART Messaging Framework, please see the following pages: 
 
-1. `UART Messsaging Framework <https://openimu.readthedocs.io/en/latest/software/UARTmessaging.html>`__
+
+1. `UART Messsaging Framework <../software/UARTmessaging.html#OpenIMU UART Messaging Framework>`__
 
 
 CAN Messaging
@@ -59,8 +60,8 @@ CAN Messaging
     *   There are many J1939 related documents available that can be freely distributed.  We provide two such documents here:
 
         *   Vector Informatik GmbH provides a document which is a good introduction to
-            J1939 :download:`download link <../../media/Vector AN-ION-1-3100_Introduction_to_J1939.pdf>`.
-        *   Kvaser provides a J1939 Overview document - :download:`download link <../../media/Kvaser-J1939-Overview.pdf>`.
+            J1939 :download:`download link <../media/Vector AN-ION-1-3100_Introduction_to_J1939.pdf>`.
+        *   Kvaser provides a J1939 Overview document - :download:`download link <../media/Kvaser-J1939-Overview.pdf>`.
 
 .. note::   **If you use any links here, user your browser back button to return**
 

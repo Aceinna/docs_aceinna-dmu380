@@ -34,7 +34,7 @@ Users can modify provided requests and/or implement their own unique commands.
     +---------------------------+--------------+---------+---------+--------+--------------+-----------------------------------------+
     |  Set Orientation          |  65368       |  FF58   |  255    | 88     |  3           |  Set unit orientation                   |
     +---------------------------+--------------+---------+---------+--------+--------------+-----------------------------------------+
-    |  Set Unit Behavior        |  65375       |  FF5F   |  255    | 89     |  4           |  Set unit behavior                      |
+    |  Set Unit Behavior        |  65369       |  FF59   |  255    | 89     |  4           |  Set unit behavior                      |
     +---------------------------+--------------+---------+---------+--------+--------------+-----------------------------------------+
     ||   Set Bank of PS         |  65520       |  FFF0   |  255    | 240    |  8           || Reconfigure PS numbers for set         |
     ||   Numbers for Bank0      |              |         |         |        |              || requests                               |

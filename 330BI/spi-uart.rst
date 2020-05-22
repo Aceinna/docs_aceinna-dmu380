@@ -26,5 +26,5 @@ SPI & UART Messaging
 
 To learn more about the OpenIMU SPI & UART Messaging Framework, please see the following pages: 
 
-1. `SPI Messaging Framework <https://openimu.readthedocs.io/en/latest/software/SPImessaging.html>`__
-2. `UART Messsaging Framework <https://openimu.readthedocs.io/en/latest/software/UARTmessaging.html>`__
+1. `SPI Messaging Framework <../software/SPImessaging.html#OpenIMU SPI Messaging Framework>`__
+2. `UART Messsaging Framework <../software/UARTmessaging.html#OpenIMU UART Messaging Framework>`__

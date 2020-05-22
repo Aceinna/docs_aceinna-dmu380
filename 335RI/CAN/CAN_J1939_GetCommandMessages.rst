@@ -49,7 +49,7 @@ Responses to Get Requests
 The following table describe the payloads for responses to Get Requests
 
 
-.. table::    *Software Version Response Payload*
+.. table::    *Firmware Version Response Payload*
     :align: left
 
     +-----------+-----------------------+

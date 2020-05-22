@@ -35,8 +35,7 @@ CAN Messaging
 To learn about CAN J1939 Messaging & Example Application For OpenIMU330RI, please see the following
 page: 
 
-1. `CAN J1939 Messaging & Example Application <https://openimu.readthedocs.io/en/latest/software/CAN/CAN_J1939_Application.html>`__
-
+1. `CAN J1939 Messaging & Example Application <../software/CAN/CAN_J1939_Application.html#CAN J1939 Messaging>`__
 
 
 UART Messaging
@@ -44,4 +43,4 @@ UART Messaging
 
 To learn more about the OpenIMU UART Messaging Framework, please see the following pages: 
 
-1. `UART Messsaging Framework <https://openimu.readthedocs.io/en/latest/software/UARTmessaging.html>`__
+1. `UART Messsaging Framework <../software/UARTmessaging.html#OpenIMU UART Messaging Framework>`__
