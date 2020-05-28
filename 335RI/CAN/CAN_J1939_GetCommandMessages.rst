@@ -16,25 +16,25 @@ In table below provided list of the parameters which can be requested from ECU, 
     :align: left
 
     +-------------------------------+-------------+--------------+-------------+--------------+
-    |   **Parameter**               || **PGN**    ||   **PF**    ||  **PS**    || **Payload** |
-    |                               || (dec)      ||   (dec)     ||  (dec)     || **Length**  |
-    |                               ||            ||             ||  (See note)|| (bytes)     |
+    ||  **Parameter**               || **PGN**    ||   **PF**    ||  **PS**    || **Payload** |
+    ||                              || (dec)      ||   (dec)     ||  (dec)     || **Length**  |
+    ||                              ||            ||             ||  (See note)|| (bytes)     |
     +-------------------------------+-------------+--------------+-------------+--------------+
-    |  Firmware  Version            | 65242       |  254         | 218         | 5            |
+    || Firmware  Version            || 65242      ||  254        || 218        || 5           |
     +-------------------------------+-------------+--------------+-------------+--------------+
-    |  ECU ID                       | 64965       |  253         | 197         | 8            |
+    ||  ECU ID                      || 64965      ||  253        || 197        || 8           |
     +-------------------------------+-------------+--------------+-------------+--------------+
-    |  Packet Rate                  | 65365       |  255         | 85          | 2            |
+    ||  Packet Rate                 || 65365      ||  255        || 85         || 2           |
     +-------------------------------+-------------+--------------+-------------+--------------+
-    |  Packet Type                  | 65366       |  255         | 86          | 2            |
+    ||  Packet Type                 || 65366      ||  255        || 86         || 2           |
     +-------------------------------+-------------+--------------+-------------+--------------+
-    |  LPF Cutoff Frequency         | 65367       |  255         | 87          | 3            |
+    ||  LPF Cutoff Frequency        || 65367      ||  255        || 87         || 3           |
     +-------------------------------+-------------+--------------+-------------+--------------+
-    |  Orientation                  | 65368       |  255         | 88          | 3            |
+    ||  Orientation                 || 65368      ||  255        || 88         || 3           |
     +-------------------------------+-------------+--------------+-------------+--------------+
-    |  Master BIT status word       | 65364       |  254         | 84          | 2            |
+    ||  Master BIT status word      || 65364      ||  254        || 84         || 2           |
     +-------------------------------+-------------+--------------+-------------+--------------+
-    |  Unit Behavior                | 65369       |  255         | 89          | 2            |
+    ||  Unit Behavior               || 65369      ||  255        || 89         || 2           |
     +-------------------------------+-------------+--------------+-------------+--------------+
 	
 	
@@ -44,7 +44,7 @@ In table below provided list of the parameters which can be requested from ECU, 
         "Set Bank of PS Numbers for Bank1" command.  The given values are the default values.
     *   In responses values of PF and PS field in extended headers have the same PF+PS values as requested.
 
-Responses to Get Requests
+Payload for Get Messages
 --------------------------
 The following table describe the payloads for responses to Get Requests
 
@@ -53,24 +53,24 @@ The following table describe the payloads for responses to Get Requests
     :align: left
 
     +-----------+-----------------------+
-    | **Byte**  | **Description**       |
+    || **Byte** || **Description**      |
     +-----------+-----------------------+
-    | 0         | Major Version Number  |
+    || 0        || Major Version Number |
     +-----------+-----------------------+
-    | 1         | Minor Version Number  |
+    || 1        || Minor Version Number |
     +-----------+-----------------------+
-    | 2         | Patch Number          |
+    || 2        || Patch Number         |
     +-----------+-----------------------+
-    | 3         | Stage Number          |
+    || 3        || Stage Number         |
     +-----------+-----------------------+
-    | 4         | Build Number          |
+    || 4        || Build Number         |
     +-----------+-----------------------+
 
 .. table::    *ECU ID 64 Bit Response Payload*
     :align: left
 
     +--------------+-------------------------+
-    |   **Bits**   |   **Contents**          |
+    ||  **Bits**   ||  **Contents**          |
     +--------------+-------------------------+
     ||  bits 0     || Arbitrary Address      |
     ||  bit  1:3   || Industry Group         |
@@ -87,48 +87,48 @@ The following table describe the payloads for responses to Get Requests
 .. table::  *Packet Rate Response Payload*
 
     +-----------+-----------------------+
-    | **Byte**  | **Description**       |
+    || **Byte** || **Description**      |
     +-----------+-----------------------+
-    | 0         | Source Address        |
+    || 0        || Source Address       |
     +-----------+-----------------------+
-    | 1         | Output Data Rate      |
+    || 1        || Output Data Rate     |
     +-----------+-----------------------+
 
 .. table::  *Packet Type Response Payload*
 
     +-----------+----------------------------+
-    | **Byte**  | **Description**            |
+    || **Byte** || **Description**           |
     +-----------+----------------------------+
-    | 0         | Source Address             |
+    || 0        || Source Address            |
     +-----------+----------------------------+
-    | 1         | Packet Types Bitmask (LSB) |
+    || 1        || Packet Types Bitmask (LSB)|
     +-----------+----------------------------+
-    | 2         | Packet Types Bitmask (MSB) |
+    || 2        || Packet Types Bitmask (MSB)|
     +-----------+----------------------------+
 
 
 .. table:: *Digital Cutoff Frequency Response Payload*
 
     +-----------+-----------------------+
-    | **Byte**  | **Description**       |
+    || **Byte** || **Description**      |
     +-----------+-----------------------+
-    | 0         | Source Address        |
+    || 0        || Source Address       |
     +-----------+-----------------------+
-    | 1         | Acceleration Cutoff   |
+    || 1        || Acceleration Cutoff  |
     +-----------+-----------------------+
-    | 2         | Angular Rate Cutoff   |
+    || 2        || Angular Rate Cutoff  |
     +-----------+-----------------------+
 
 .. table:: *Orientation Response Payload*
 
     +-----------+----------------------------------+
-    | **Byte**  | **Description**                  |
+    || **Byte** || **Description**                 |
     +-----------+----------------------------------+
-    | 0         | Source Address                   |
+    || 0        || Source Address                  |
     +-----------+----------------------------------+
-    | 1         | Orientation Value (MSB)          |
+    || 1        || Orientation Value (MSB)         |
     +-----------+----------------------------------+
-    | 2         | Orientation Value (LSB)          |
+    || 2        || Orientation Value (LSB)         |
     +-----------+----------------------------------+
 
 
@@ -136,7 +136,7 @@ The following table describe the payloads for responses to Get Requests
     :align: left
 
     +--------------+-------------------------+------------------------------------------------------------------+
-    |   **Bits**   |   **Contents**          |                   **Description**                                |
+    ||  **Bits**   ||   **Contents**         ||                   **Description**                               |
     +--------------+-------------------------+------------------------------------------------------------------+
     ||  bit  0     || Master Status          || 0 = normal, 1 = hardware, sensor, CAN, or software alert/error  |
     ||  bit  1     || Hardware Status        || 0 = normal, 1 = hardware alert/error                            |

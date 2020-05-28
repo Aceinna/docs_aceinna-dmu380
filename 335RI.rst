@@ -27,7 +27,7 @@ factory-calibrated package to provide consistent performance through the extreme
 operating environments.
 
 OpenIMU335RI has excellent acceleration and gyro performance that matches
-systems ten times more expensive.
+systems which are more expensive.
 
 
 *   Hardware
@@ -47,7 +47,7 @@ systems ten times more expensive.
 
     *   In-System Firmware Upgrade
     *	Open Source Tool Chain
-    *	Open Source Algorithms (IMU / VG / AHRS / INS)
+    *	Open Source Algorithms ( VG )
     *	Built in 16-State Open Source Extended State Kalman Filter
     *	Open Community & Support
 
