@@ -114,9 +114,9 @@ The following table describe the payloads for responses to Get Requests
     +-----------+-----------------------+
     || 0        || Source Address       |
     +-----------+-----------------------+
-    || 1        || Acceleration Cutoff  |
+    || 1        || Angular Rate Cutoff  |
     +-----------+-----------------------+
-    || 2        || Angular Rate Cutoff  |
+    || 2        || Acceleration Cutoff  |
     +-----------+-----------------------+
 
 .. table:: *Orientation Response Payload*
