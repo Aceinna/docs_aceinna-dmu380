@@ -24,7 +24,7 @@ sensors.
 * Integrated 3-Axis Magnetic Sensor
 * 168MHz STM32 M4 CPU
 * SPI / UART Interfaces
-* Update Rate to 800Hz
+* Max ODR 200Hz
 * Synchronization Input
 * In-System Upgrade
 * Small Size (24x37x9.5mm)
