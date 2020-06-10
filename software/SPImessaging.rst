@@ -421,7 +421,7 @@ There are 11 possible low pass filter options (see below). Setting/Writing the f
 OpenIMU DATA READY signal rate can be changed dynamically by writing corresponding values into the SPI register 0x37.
 There are 10 possible options (see below). Setting/Writing the field to anything else has no effect.
 
-     Table 7. OpenIMU Digital filter choices
+     Table 7. OpenIMU SPI ODR Rate choices
 
     +-------------+--------------------+
     || Value      || Data Ready signal |    
