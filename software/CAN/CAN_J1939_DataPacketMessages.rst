@@ -55,6 +55,8 @@ The following table describes the SSI2 Data Packet Payload:
     | 6:7        | FoM,Latency    | Ignore           | Ignore          | Ignore     |
     +------------+----------------+------------------+-----------------+------------+
 
+.. note::   SSI2 Data Packet is applicable for VG-AHRS or INS Applications only.
+
 |
 |
 |
