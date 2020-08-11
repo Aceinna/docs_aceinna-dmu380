@@ -3,7 +3,7 @@ OpenIMU330BI Module Mechanical Drawing
 
 Dimensions are in mm
 
-.. figure:: ../media/OpenIMU330BI_mechanical.png
+.. figure:: ../media/8150-1800-02_Drawing_OpenIMU330BI.PDF
     :align: center
 
     **OpenIMU330BI Module Mechanical Drawing**
