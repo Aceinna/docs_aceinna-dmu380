@@ -483,6 +483,11 @@ OpenIMU UART Messaging Framework
     | 0x5555                      | 0x7343      | 0      | <CRC (U2)>  |
     +-----------------------------+-------------+--------+-------------+
 
+    .. note::
+
+        Save configuration command from serial port works on OpenIMU300ZI. It is not supported by OpenIMU300RI, but one can make permanent changes just by rebuilding the FW with desired default settings. 
+
+		
     5.5 Restore Defaults**
 
 
