@@ -894,6 +894,14 @@ OpenIMU UART Messaging Framework
     +-----------+---------------------+-----------+-----------+
 
 
+
+
+    *6.4 Raw & Scaled Data Message*
+
+
+    Factory Raw Data Packet M (Output Packet) & Scaled Sensor Packet M (Output Packet) has the next format, which is defined in the doc :download:`download <../media/DMUSerialInterfaceSpec_FM_SM.pdf>`
+	
+
 **7 Steps to create your own interactive or output packet in embedded OpenIMU software framework**
 
 
