@@ -596,7 +596,7 @@ In addition, the following operational constraints apply to the SPI communicatio
     || fCL       | SPI clock frequency             | 2             | 1.2           | MHz   |
     +------------+---------------------------------+---------------+---------------+-------+
     || tDELAY    || Time between successive        |               |               |       |
-    ||           || clock cycles                   | 9 (min)       | 16            | nSec  |
+    ||           || clock cycles                   | 9 (min)       | 16            | uSec  |
     +------------+---------------------------------+---------------+---------------+-------+
     || tSU,NSS   || nSS setup time prior to        |               |               |       |
     ||           || clocking data                  | 133           | 133           | nSec  |
