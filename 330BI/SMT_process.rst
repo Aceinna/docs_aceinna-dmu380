@@ -46,4 +46,4 @@ Dimensions are in mm
 	
 
 
-OpenIMU330BI Land Pattern,Solder Reflow Profile and Packeage Outline doc  :download:`download <./_docs/OpenIMU330BI Land Pattern, Solder Reflow Profile and Packeage Outline Dr.docx>`
+OpenIMU330BI Land Pattern,Solder Reflow Profile and Package Outline doc  :download:`download <./_docs/OpenIMU330BI Land Pattern, Solder Reflow Profile and Packeage Outline Dr.docx>`
