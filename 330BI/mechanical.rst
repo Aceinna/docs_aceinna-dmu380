@@ -1,16 +1,3 @@
-OpenIMU330BI Module Mechanical Drawing
-======================================
-
-Dimensions are in mm
-
-.. figure:: ../media/8150-1800-02_Drawing_OpenIMU330BI.png
-    :align: center
-
-    **OpenIMU330BI Module Mechanical Drawing**
-
-Schematic :download:`download <../media/8150-1800-02_Drawing_OpenIMU330BI.PDF>`
-
-
 OpenIMU330BI EVB Schematic
 ==========================
 
