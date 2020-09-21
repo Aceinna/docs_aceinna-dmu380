@@ -274,10 +274,7 @@ packet.
     In AHRS mode for proper operation of the stabilized heading measurement, the AHRS/VG
     APP uses information from the internal 3-axis digital magnetometer. The AHRS APP must be installed
     correctly and calibrated for hard-iron and soft iron effects to avoid
-    any system performance degradation. See section XXX for
-    information and tips regarding installation and calibration and why
-    magnetic calibration is necessary. Please review this section of the
-    manual before proceeding to using the heading data
+    any system performance degradation. 
 
 
 
