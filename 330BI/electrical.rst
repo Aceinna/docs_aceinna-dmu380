@@ -35,7 +35,7 @@ OpenIMU330BI Environmental, Electrical,  and Physical Specifications
 +-----------------------+-----------------------+
 | Output Date Rate      | up to 200Hz (SPI)     |
 |                       +-----------------------+
-|                       | up to 100Hz (UART)    |
+|                       | up to 200Hz (UART)    |
 +-----------------------+-----------------------+
 | Input Clock Sync      | 1KHz pulse            |
 |                       | (Configurable)        |

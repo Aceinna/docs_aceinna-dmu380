@@ -410,10 +410,6 @@ There are 11 possible low pass filter options (see below). Setting/Writing the f
     +-------------+--------------------+--------------+
     | 0x60 (96)   | 5 Hz               | Butterworth  |
     +-------------+--------------------+--------------+
-    | 0x90 (144)  | 40 Hz              | Butterworth  |
-    +-------------+--------------------+--------------+
-    | 0x80 (128)  | 25 Hz              | Butterworth  |
-    +-------------+--------------------+--------------+
 
 
 **8. OpenIMU DATA READY signal rate**
