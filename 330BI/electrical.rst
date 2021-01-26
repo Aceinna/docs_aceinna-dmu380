@@ -99,7 +99,7 @@ OpenIMU330BI Environmental, Electrical,  and Physical Specifications
 
 .. envvar:: VALUES
 
-- Moisture Sensitivity Level (MSL) = 5
+- Moisture Sensitivity Level (MSL) = 3
 - The mechanical shock = 500 m/s2 
 
 
