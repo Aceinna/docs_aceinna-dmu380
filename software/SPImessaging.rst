@@ -589,7 +589,7 @@ In addition, the following operational constraints apply to the SPI communicatio
     || Parameter || Description                    || Value for    || Value for    | Units |
     ||           ||                                || OpenIMU300ZI || OpenIMU330BI |       |
     +------------+---------------------------------+---------------+---------------+-------+
-    || fCL       | SPI clock frequency             | 2             | 1.2           | MHz   |
+    || fCL       | SPI clock frequency             | 1             | 1.2           | MHz   |
     +------------+---------------------------------+---------------+---------------+-------+
     || tDELAY    || Time between successive        |               |               |       |
     ||           || clock cycles                   | 9 (min)       | 16            | uSec  |
