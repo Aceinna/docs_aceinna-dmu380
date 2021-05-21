@@ -1,5 +1,5 @@
-OpenIMU335RI - Rugged Industrial CAN Module
-===========================================
+OpenIMU335RI - Triple-Redundant Rugged Industrial CAN Module
+============================================================
 .. contents:: Contents
     :local:
 
@@ -62,7 +62,7 @@ OpenIMU335 Product Page
 ------------------------
     
 The OpenIMU335RI product page is at: `<https://www.aceinna.com/inertial-systems/OpenIMU335RI>`_. 
-    
+Refer to this page for a product summary and direct links to the datasheet, user manual and DBC file for the CAN interface.
 
 Datasheet
 ----------
@@ -119,11 +119,11 @@ For details of the OpenIMU development environment refer to:
 Ready to Use Applications
 --------------------------
 	
-To learn about Ready-to-Use-Apps information & available for immediate download to your OpenIMU, please see the following
+To learn about Ready-to-Use-Apps available for immediate download to your OpenIMU, please see the following
 pages: 
 
-1. `Ready-to-Use-Applications Information <https://openimu.readthedocs.io/en/latest/apps.html>`__
-2. `Need to run the OpenIMU server before running one of the ready to use applications <https://developers.aceinna.com/devices/connect>`__
-3. `Then upload a prebuilt app to your OpenIMU <https://developers.aceinna.com/code/apps>`__
+1. `Information about rady-to-Use-Applications <https://openimu.readthedocs.io/en/latest/apps.html>`__
+2. `Run the OpenIMU server before uploading or using a prebuilt app <https://developers.aceinna.com/devices/connect>`__
+3. `Upload a prebuilt app to your OpenIMU <https://developers.aceinna.com/code/apps>`__
 
 .. include:: <isonum.txt>

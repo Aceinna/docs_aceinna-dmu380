@@ -4,65 +4,49 @@ OpenIMU335RI Eval Kit
 .. contents:: Contents
     :local:
 
-The OpenIMU335RI evaluation kit includes:
-
-*   A robust and easy-to-use test fixture.
-*   An OpenIMU335RI IMU module attached to the test fixture with JTAG (SWD) 20-pin connector.
-*   An ST-LINK J-TAG debugger, a debugger cable, and a USB cable.
-*   A multiple-connector cable for RS232/CAN/Power connection.
-
-.. image:: ../media/OpenIMU-Unlabeled-box.png
-    :height: 200
-
-
-.. image:: ../media/STLink.png
-    :height: 200
-
 **OpenIMU335RI Evaluation Kit Introduction**
 
 The OpenIMU evaluation kit is a hardware platform used to evaluate the
 OpenIMU335RI inertial navigation system and develop various applications
-based on this platform.  It is supported by the Aceinna Navigation Studio,
-which provides easy access to the features of the
-OpenIMU335RI and explains how to integrate the device in a custom design.
+based on this platform.  A difference to standard part is that a JTAG (SWD) 20-pin header is 
+brought out for code development.  It is supported by Aceinna Navigation Studio,
+which enables the user to quickly evaluate the part.
 The Components section below details the contents of the kit.
 
 .. note::
 
-    An external DC power supply is required.  The power supply must be able to provide 400mA at 9VDC to 32VDC.
+    An external DC power supply is required.  The power supply must be able to provide 100mA at 9VDC to 32VDC.
 
+.. image:: images/OpenIMU335_EvalKit.png
+    :height: 400
+    :align: center
 
-
-+------------------------------------------------------+------------------------------------------------+
-| .. figure:: ../media/OpenIMU300RI_DevKit.png         | .. figure:: ../media/OpenIMU300RI-EvalKit.png  |
-|    :height: 300                                      |    :height: 500                                |
-+------------------------------------------------------+------------------------------------------------+
-||   **OpenIMU335RI Evaluation Unit**                  || **OpenIMU335RI Evaluation Kit**               |
-||   **installed on test fixture with JTAG connector** ||                                               |
-+------------------------------------------------------+------------------------------------------------+
 
 **OpenIMU335RI Evaluation Kit components**
 
 
-OpenIMU335RI unit
-
-*   The OpenIMU335RI is 6 DOF (9 optionally) fully calibrated inertial unit. It is used as the base for the development of custom
-    inertial navigation applications.
-
 OpenIMU335RI Evaluation Kit fixture and JTAG header board
 
 *   The OpenIMU335RI unit with JTAG header board are mounted on the test fixture.
-    The JTAG header provides a means to debug/upload applications to evaluation unit.
+    The JTAG header provides a means to debug/upload applications to the evaluation unit.
+
+    .. image:: images/OpenIMU335_EvalBoard.png
+       :height: 400
+       :align: center
 
 ST-Link debugger
 
-*   The ST-Link debugger is a standard JTAG SWD debugger provided by STMicroelectronics company.
+*   The ST-Link V2 programmer / debugger is a standard JTAG SWD debugger provided by STMicroelectronics company.
     It is used for in-system debugging/uploading of applications via SWD interface.
+
+    .. image:: ../media/STLink.png
+       :height: 400
+    
 
 OpenIMU335RI Breakout Cable
 
-*   An included cable provides means of connecting unit to PC via RS232 interface, connecting unit to the CAN bus and powering the unit.
-    The next table shows the connector pin assignments of the supplied cable
+*   An included cable provides a means of connecting the unit to a PC via RS232 interface, connecting the unit to the CAN bus, and powering the unit.
+    The next table shows the connector pin assignments of the supplied cable.
 
     +-------------+------------+------------+-----------+-----------+
     | Signal Name || Unit      || RS232     || CAN      || Power    |
@@ -83,48 +67,53 @@ OpenIMU335RI Breakout Cable
 
 
 
-OpenIMU335RI Evaluation Kit Setup
-====================================
-
- **To set up OpenIMU335RI evaluation kit you'll need to perform next steps:**
- 
- 1. Install PC tools.
- 2. Unpack OpenIMU335RI evaluation kit.
- 3. Connect provided cable to OpenIMU335RI evaluation unit (see notes below).
- 4. Connect cable connector marked "RS232" to the PC serial port or to UCB-to-Serial adapter.
- 5. Connect cable connector marked "CAN" to the CAN bus or to the CAN traffic monitoring unit (like Vestor or Komodo or other).
- 6. Connect ST-Link debugger to the PC via USB cable. Make sure that ST-Link device appeared in "Device Manager". 
- 7. Connect 20-pin connector on OpenIMU300RI evaluation unit to ST-Link debugger using provided 20-pin flat cable.
- 8. Connect RED (+) and BLACK (GND) wires to external power supply (9 - 32V, 0.4A)  
- 9. Turn ON power supply.
-
-Now you are ready to debug and test your application.
-
-*   The following activities are addressed in the "Tools/Development Tools" section:
-
-    *   Download App with JTAG
-    *   Debugging with PlatformIO Debugger and JTAG Debug Adapter
-    *   Graphing & Logging IMU Data using the Acienna Navigation Studio
-
-
 **OpenIMU335RI Connector** 
 
-.. figure:: ../media/OpenIMU300RI-ConnectorCloseup.png 
+The connector of the breakout cable is shown in the following image. 
+See the notes below for details of how to connect to and disconnect from the OpenIMU335RI.
+
+.. figure:: ../media/OpenIMU335RI-ConnectorCloseup.png 
+
+The pin numbers are as follows:
+
+.. figure:: ../media/OpenIMU335RI_ConnectorPinNumbers.png
 
 .. note::
-    The following directions are applicable for connecting cable to OpenIMU300RI evaluation unit:
+    To connect the cable to the OpenIMU300RI evaluation unit:
 	
     *   Align the keys on the unit and the cable connector.
     *   Push the 6-pin cable connector into the unit connector until lock clicks.
     *   If an extra lock is required - push the red latch under the black latch.  This prevents the disengagement button from being depressed.
 
 .. note::
-    The following directions are applicable for disconnecting cable from OpenIMU335RI evaluation unit:
+    To disconnect the cable from the from OpenIMU335RI evaluation unit:
 	
     *   If engaged, pull the red latch away from the connector toward the cable.
     *   Push down on the black disengagement button in the middle of the connector.
     *   Pull the cable connector away from the unit.
 
+
+OpenIMU335RI Evaluation Kit Setup
+====================================
+
+To get started with the OpenIMU335RI evaluation kit connect the breakout cable to the evaluation kit.
+
+*   Connect the RS232 connector of the cable to a PC if you wish to evaluate using Aceinna Navigation Studio.
+*   To evaluate the part using the CAN interface simply connect to either a CAN analyzer, or network, and refer to the CAN Port Interface Definition section of the `user manual <https://navview.blob.core.windows.net/web-resources/7430-3321-01%20User%20Manual%20OpenIMU335.pdf?_t=1621434422173>`_.
+*   Connect RED (+) and BLACK (GND) wires to an external power supply (9 - 32V, 0.1A) 
+
+Refer to the `Aceinna Navigation Studio website <https://developers.aceinna.com/>`_ where there is documentation on how to:
+
+*   Download a PC server application that will allow you to evaluate the part over the RS-232 interface using the Chrome® web browser: https://developers.aceinna.com/devices/connect
+*   Update the firmware on the OpenIMU335RI using one of Aceinna’s pre-compiled applications: https://developers.aceinna.com/code/apps
+*   Install the OpenIMU programming environment for user code development: https://developers.aceinna.com/docs/install
+   
+The following activities are addressed in the :ref:`Tools` section:
+
+*   How to uload an App via JTAG
+*   Debugging with the PlatformIO Debugger and JTAG Debug Adapter
+*   Graphing & Logging IMU Data using the Acienna Navigation Studio
+  
 
 **OpenIMU Evaluation Kit Important Notice**
 
