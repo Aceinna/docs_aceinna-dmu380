@@ -3,7 +3,7 @@ OpenIMU Modules
 .. contents:: Contents
     :local:
 
-The three OpenIMU modules that are currently available are the:
+The four OpenIMU modules that are currently available are the:
 
 .. toctree::
     :maxdepth: 1
@@ -11,6 +11,7 @@ The three OpenIMU modules that are currently available are the:
     300ZI
     300RI
     330BI
+    335RI
 
 .. toctree::
     :maxdepth: 1
