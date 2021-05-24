@@ -17,9 +17,8 @@ The Components section below details the contents of the kit.
 
     An external DC power supply is required.  The power supply must be able to provide 100mA at 9VDC to 32VDC.
 
-.. image:: _images/OpenIMU335_EvalKit.png
+.. image:: ../media/OpenIMU335_EvalKit.png
     :height: 400
-    :align: center
 
 
 **OpenIMU335RI Evaluation Kit components**
@@ -30,9 +29,9 @@ OpenIMU335RI Evaluation Kit fixture and JTAG header board
 *   The OpenIMU335RI unit with JTAG header board are mounted on the test fixture.
     The JTAG header provides a means to debug/upload applications to the evaluation unit.
 
-    .. image:: _images/OpenIMU335_EvalBoard.png
+    .. image:: ../media/OpenIMU335_EvalBoard.png
        :height: 400
-       :align: center
+
 
 ST-Link debugger
 
