@@ -58,7 +58,7 @@ Next pins on OpenIMU330BI are used in this case:
 
 Next sequence needs to be executed to force unit into boot loading mode:
 
-1.	Connect serial RS232 interface from PC to unit using RS232-TTL convertor. There may be also direct USB-TTL serial adapter.
+1.	Connect UART interface from PC to unit using UART-TTL convertor. There may be also direct USB-TTL serial adapter.
 2.	Provide HIGH level on BOOT0 pin.
 3.	Power up unit or apply RESET signal (active low. Time > 10 milliseconds).
 4.	Start custom boot loading utility or ST Micro utility and follow the steps in the documentation. 
