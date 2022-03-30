@@ -1,8 +1,10 @@
 OpenIMU330BI Firmware Update
 ==============================
 
-In comparison to OpenIMU300ZI and OpenIMU300RI, OpenIMU330BI does not have built-in bootloader. The reason behind it that OpenIMU300BI uses processor with less resources and sometimes if application is big – there would be now room to fit it in if bootloader present.
-There are two scenarios how FW update can be performed for OpenIMU330BI.
+There are two methods that can be used to update the FW in the OpenIMU330BI. 
+   - Using the JTAG SWD interface
+   - or using the built-in MCU Bootloader, the Boot0 Pin and the UART port. 
+Care should be taken during schematic and layout generation to make provisions for either or both of these methods if FW upgrading capability will be needed in the end product.
 
 Using JTAG (SWD) interface 
 -------------------------------
@@ -56,7 +58,7 @@ Next pins on OpenIMU330BI are used in this case:
 
 Next sequence needs to be executed to force unit into boot loading mode:
 
-1.	Connect serial RS232 interface from PC to unit using RS232-TTL convertor. There may be also direct USB-TTL serial adapter.
+1.	Connect UART interface from PC to unit using UART-TTL convertor. There may be also direct USB-TTL serial adapter.
 2.	Provide HIGH level on BOOT0 pin.
 3.	Power up unit or apply RESET signal (active low. Time > 10 milliseconds).
 4.	Start custom boot loading utility or ST Micro utility and follow the steps in the documentation. 
