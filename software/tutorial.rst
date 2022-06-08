@@ -3,7 +3,7 @@ Tutorial APP
 
 A simple static tilt sensor demo is provided here to show how to add your own algorithm and output algorithm results.
 
-OpenIMU provides a user-friendly interface to add your own algorithms. To do that, the user need to get sensor data, run the algorithm and output algorithm results. All interfaces related to these operations are handled in src/dataProcessingAndPresentation.c. And all user codes implementing the algorithms and results packaging are located in src/user/ directory.
+OpenIMU provides a user-friendly interface to add your own algorithms. To do that, the user needs to get sensor data, run the algorithm and output algorithm results. All interfaces related to these operations are handled in src/dataProcessingAndPresentation.c and all user codes implementing the algorithms and results packaging are located in src/user/ directory.
 
 Get algorithm input
 -------------------
@@ -93,11 +93,11 @@ User may also need to implement an algorithm initialization procedure. It is not
     results[1] = 0.0;
  }
 
-Now, a simple user-fined algorithm is done. The framework will automatically call **InitUserAlgorithm** at the initialization stage, and periodically call **RunUserNavAlgorithm** to run the user-defined algorithm and get results.
+Now, a simple user-defined algorithm is done. The framework will automatically call **InitUserAlgorithm** at the initialization stage, and periodically call **RunUserNavAlgorithm** to run the user-defined algorithm and get results.
 
 Output results via debug UART
 -----------------------------
-This section shows how to use the debug UART (default baud rate is 38400) on the EVB to output algorithm results. The user could also output other information the user are interested in.
+This section shows how to use the debug UART (default baud rate is 38400) on the EVB to output algorithm results. The user could also output other information the user is interested in.
 
 To use the debug UART, the user needs to include **debug.h**. For example, I want to output algorithm results after the algorithm is called in **dataProcessingAndPresentation.c**.
 
@@ -132,7 +132,7 @@ Compile the project, upload the firmware, and the user can get result via debug 
 
 Implementing user-defined packets via UART
 ------------------------------------------
-The debug UART is mainly intended for debug usage. The user may want to output algorithm results via the interface UART (default baud rate is 57600) on the EVB. OpenIMU provides an easy-to-use framework for the user to define your own packets. User-defined packets are declared and implemented in **UserMessaging.h** and **UserMessaging.c**.
+The debug UART is mainly intended for debug usage. The user may want to output algorithm results via the interface UART (default baud rate is 57600) on the EVB. OpenIMU provides an easy-to-use framework for the user to define his own packets. User-defined packets are declared and implemented in **UserMessaging.h** and **UserMessaging.c**.
 
 
 - Add your packet code in **UserMessaging.h**.
@@ -230,11 +230,11 @@ After I added my encoding codes, this procedure is as follows.
 
 This procedure will be called at the defined rate by the framework.
 
-The framework default outputs calibrated IMU sensor data. To output your own packets, the user should tell the framework the packet code of your packet, and then feed the algorithm results to the encoding procedure we just implemented above.
+The framework default outputs calibrated IMU sensor data. To output his own packets, the user should tell the framework the packet code of his packet, and then feed the algorithm results to the encoding procedure we just implemented above.
 
 - Register the user-defined packet in the framework.
 
-This can be done by calling **setOutputPacketCode** when initializing user-defined algorithm in **dataProcessingAndPresentation.c**. To use **setOutputPacketCode**, the user need
+This can be done by calling **setOutputPacketCode** when initializing user-defined algorithm in **dataProcessingAndPresentation.c**. To use **setOutputPacketCode**, the user needs
 
 ::
 
